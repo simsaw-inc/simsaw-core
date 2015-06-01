@@ -1,0 +1,35 @@
+{
+  "name": "simsawCore",
+  "version": "0.1.0",
+  "description": "simsaw cms core",
+  "main": "./lib/simsaw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simsaw-inc/simsaw-core.git"
+  },
+  "keywords": [
+    "simsaw",
+    "simsaw-cms",
+    "simsaw-cms-core",
+    "cms"
+  ],
+  "author": "Ankit Patial <ankit@simsaw.com>",
+  "license": "APL2",
+  "bugs": {
+    "url": "https://github.com/simsaw-inc/simsaw-core/issues"
+  },
+  "homepage": "https://github.com/simsaw-inc/simsaw-core",
+  "dependencies": {
+    "boom": "^2.7.2",
+    "crumb": "^4.0.3",
+    "flow": "^0.2.3",
+    "hapi": "^8.6.0",
+    "hapi-auth-cookie": "^2.2.0",
+    "hoek": "^2.14.0",
+    "poop": "^1.2.5",
+    "scooter": "^2.0.1"
+  }
+}
